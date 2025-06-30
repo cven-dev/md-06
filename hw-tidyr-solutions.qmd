@@ -1,6 +1,8 @@
 ---
 title: "Homework Exercise - Data tidying"
-format: html
+format:
+  html:
+    embed-resources: true
 editor: visual
 editor_options: 
   chunk_output_type: console
@@ -24,11 +26,11 @@ library(here)
 
 **Write the code yourself**
 
-1.  Use the `read_csv()` (**Note**: Watch out for the `_` don't use the `.` as in `read.csv()`) function to import the 'msw-generation-and-composition-by-income.csv' data from the "wk-05/data" directory and assign it to an object with the name `waste_data`. **Tipp:** Combine the `read_csv()` with the `here()` function as we have done in the live coding exercise of week 3.
+1.  Use the `read_csv()` (**Note**: Watch out for the `_` don't use the `.` as in `read.csv()`) function to import the 'msw-generation-and-composition-by-income.csv' data from the "data" directory and assign it to an object with the name `waste_data`. **Tipp:** Combine the `read_csv()` with the `here()` function as we have done in the live coding exercise of week 3.
 
 ```{r}
 
-waste_data <- read_csv(here("wk-05/data/msw-generation-and-composition-by-income.csv"))
+waste_data <- read_csv(here("data/msw-generation-and-composition-by-income.csv"))
 
 ```
 
@@ -95,7 +97,7 @@ As in the exercises for week 4, I have stored the data that I would have expecte
 
 ```{r}
 
-waste_data_long <- read_rds(here("wk-05/data/msw-generation-and-composition-by-income-long.rds"))
+waste_data_long <- read_rds(here("data/msw-generation-and-composition-by-income-long.rds"))
 
 ```
 
@@ -141,7 +143,7 @@ As in the exercises for week 4, I have stored the data that I would have expecte
 
 ```{r}
 
-waste_data_long_mean <- read_rds(here("wk-05/data/msw-generation-and-composition-by-income-long-mean.rds"))
+waste_data_long_mean <- read_rds(here("data/msw-generation-and-composition-by-income-long-mean.rds"))
 
 ```
 
