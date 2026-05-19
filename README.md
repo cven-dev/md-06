@@ -2,8 +2,6 @@
 
 Homework repo for **Module 6** of [CVEN 5999: Special Topics — Data Analytics for Development](https://cven5999-ss26.github.io/website/) (Summer 2026, CU Boulder).
 
-Lecture: `lec-04` · Module date: 2026-06-29 · Homework due: 2026-07-03
-
 ## What's in here
 
 - `live-tidyr-pivoting.qmd` — live coding on tidyr and pivoting (with `-solutions` companion)
