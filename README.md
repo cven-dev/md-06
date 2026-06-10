@@ -1,13 +1,13 @@
-# md-06 — Tidy data, vectors and pivoting
+# md-06 - Tidy data, vectors and pivoting
 
 ## What's in here
 
-- `live-tidyr-pivoting.qmd` — live coding on tidyr and pivoting (with `-solutions` companion)
-- `live-vectors.qmd` — live coding on vectors (with `-solutions` companion)
-- `hw-tidyr.qmd` — homework exercise (with `-solutions` companion)
-- `learning-06.qmd` — learning reflection
-- `data/`, `figs/` — datasets and generated figures
-- `references.bib` — bibliography
+- `live-tidyr-pivoting.qmd` - live coding on tidyr and pivoting (with `-solutions` companion)
+- `live-vectors.qmd` - live coding on vectors (with `-solutions` companion)
+- `hw-tidyr.qmd` - homework exercise (with `-solutions` companion)
+- `learning-06.qmd` - learning reflection
+- `data/`, `figs/` - datasets and generated figures
+- `references.bib` - bibliography
 
 ## How to use
 
@@ -17,4 +17,4 @@
 
 ## License
 
-[CC BY 4.0](LICENSE.md) — © 2026 Lars Schöbitz
+[CC BY 4.0](LICENSE.md) - © 2026 Lars Schöbitz

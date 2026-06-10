@@ -26,7 +26,7 @@ library(here)
 
 **Write the code yourself**
 
-1.  Use the `read_csv()` (**Note**: Watch out for the `_` don't use the `.` as in `read.csv()`) function to import the 'msw-generation-and-composition-by-income.csv' data from the "data" directory and assign it to an object with the name `waste_data`. **Tipp:** Combine the `read_csv()` with the `here()` function as we have done in the live coding exercise of week 3.
+1.  Use the `read_csv()` (**Note**: Watch out for the `_` don't use the `.` as in `read.csv()`) function to import the 'msw-generation-and-composition-by-income.csv' data from the "data" directory and assign it to an object with the name `waste_data`. **Tipp:** Combine the `read_csv()` with the `here()` function as we have done in the live coding exercise of week 6.
 
 ```{r}
 
@@ -38,7 +38,7 @@ waste_data <- read_csv(here("data/msw-generation-and-composition-by-income.csv")
 
 **Write the code yourself**
 
-1.  Starting with the `waste_data` object, use the pipe operator and the `mutate()` function to convert the `income_cat` variable from a variable of type character to a variable of type factor. Define the factor levels yourself and store them in a separate object with the name `levels_income_cat`\`.
+1.  Starting with the `waste_data` object, use the pipe operator and the `mutate()` function to convert the `income_cat` variable from a variable of type character to a variable of type factor. Define the factor levels yourself and store them in a separate object with the name `levels_income_cat`.
 
 **Tipp:** First create a frequency table for the income categories using the following code to identify the correct spelling of the categories in the variable `income_cat`.
 
@@ -93,7 +93,7 @@ waste_data_long <- waste_data_fct |>
 
 # Task 4: Summarise data
 
-As in the exercises for week 4, I have stored the data that I would have expected at this point and import it here.
+As in the exercises for week 6, I have stored the data that I would have expected at this point and import it here.
 
 ```{r}
 
@@ -139,7 +139,7 @@ waste_data_long_mean |>
 
 # Task 5: Data visualisation
 
-As in the exercises for week 4, I have stored the data that I would have expected at this point and import it here.
+As in the exercises for week 6, I have stored the data that I would have expected at this point and import it here.
 
 ```{r}
 
@@ -184,15 +184,16 @@ ggplot(data = waste_data_long_mean,
 
 1.  Open the Git pane in RStudio. It's in the top right corner in a separate tab.
 2.  **Stage** your changes by checking appropriate box next to all files (if you select one file with your mouse, you can then highlight them all with Ctrl + A on your keyboard and check all boxes)
-3.  Write a meaningful commit message (e.g. "Completed homework assignment 1b) in the **Commit message** box
+3.  Write a meaningful commit message (e.g. "Completed week 6 tidyr homework") in the **Commit message** box
 4.  Click **Commit**. Note that every commit needs to have a commit message associated with it.
-5.  Go to your course-material GitHub repo and refresh the page. You should see your commit message next to the updated files.
+5.  Click **Push** to send your changes to GitHub.
+6.  Go to your md-06-USERNAME GitHub repo (where USERNAME is your GitHub username) and refresh the page. You should see your commit message next to the updated files.
 
 ## Open an issue on GitHub
 
-Once you have ensured that the Quarto document renders without errors and you have pushed all your changes to GitHub, it is to complete the assignment by opening an issue on your course-material GitHub repo.
+Once you have ensured that the Quarto document renders without errors and you have pushed all your changes to GitHub, it is to complete the assignment by opening an issue on your md-06-USERNAME GitHub repo (where USERNAME is your GitHub username).
 
-1.  Navigate to your course-material GitHub repo.
+1.  Navigate to your md-06-USERNAME GitHub repo (where USERNAME is your GitHub username).
 2.  Click on **Issues**, and then **New issue** button.
 3.  Write a meaningful title in the **Title** field
 4.  Tag the course instructor with using the `@` sign in combination with `larnsce` as the username

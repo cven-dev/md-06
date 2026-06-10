@@ -35,7 +35,7 @@ Additional metadata on location and type of bin is available.
 
 ```{r}
 
-waste_data <- read_delim(here::here("md-06/data/rbtl_fs22_waste_composition_bellevue.csv"), delim = ";")
+waste_data <- read_delim(here::here("data/rbtl_fs22_waste_composition_bellevue.csv"), delim = ";")
 
 ```
 
